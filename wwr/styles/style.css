@@ -1,0 +1,148 @@
+/* colors: */
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #0A0A0A;
+    --secondary-color: #010C05;
+    --accent1-color: #95400C;
+    --accent2-color: #626060;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Anybody"; 
+    --paragraph-font: "Maven Pro", Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #0A0A0A;  /* headlines on a white background */ 
+    --headline-color-on-color: #95400C; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #0A0A0A; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #95400C; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #0A0A0A;
+    --nav-link-color: #95400C;
+    --nav-background-color: #010C05;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #0A0A0A;
+  }
+
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-img{
+    /* Position and center the image to scale nicely on all screens */
+    width: 100%;
+  }
+  
+#hero-msg h1 {
+    color: var(--headline-color-on-color);
+    text-align: center;
+}
+#hero-msg h4 {
+    color: var(--headline-color-on-color);
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+.mountain-card {
+    margin-left: 0;
+}
+#background{
+    color: var(--accent2-color);
+    height: 725px;
+}
+body {
+    background-color:var(--primary-color); 
+    color: var(--headline-color-on-color);
+}
+header {
+    background-color: var(--secondary-color);
+    color: var(--headline-color-on-color);
+
+/* -----------------------  */    
+}
+nav a{
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+nav a:hover{
+    padding:.25em;
+    min-width: 120px; 
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.home-title{
+    background-color: var(--primary-color);
+    color: var(--headline-color-on-color);
+}
+h4{
+    color: var(--headline-color-on-color);
+}
+
+.book{
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);   
+    text-decoration: none;
+}
+.join{
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    text-decoration: none;
+}
+.book:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.join:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.msg h2{
+    color: var(--nav-link-color);
+    background-color: var(--primary-color);
+}
+.msg p{
+    color: var(--nav-link-color);
+    background-color: var(--primary-color);
+}
+footer{
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: var(--paragraph-color-on-color);
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+footer a:hover{
+    color: var(--nav-hover-link-color);
+background-color: var(--nav-hover-background-color);
+}
+
+/* -----------------------  */    
+
+.logo{
+    width: 80px;
+}
+
+#background{
+    background-color: var(--accent2-color);
+    color: var(--paragraph-color-on-color);
+}
+ 
+
+
+.icon {
+    width: 80px;
+}
