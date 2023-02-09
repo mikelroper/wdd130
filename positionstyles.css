@@ -150,10 +150,9 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
-  display: grid;
-  /*grid-template-columns: 1;
-  grid-template-rows: 100px 200px 100px; */
+  /*height: 400px;*/
+  float: left;
+  
 }
 .red5 { 
   width: 100%; 
@@ -162,11 +161,11 @@
   
 } 
 .green5 { 
-  
   width: 100px; 
   height: 100px; 
   background-color: green; 
   float: left;
+ 
 
 } 
 .yellow5 {
@@ -174,7 +173,7 @@
   height: 200px; 
   background-color: gold; 
   font-size: 12px;
-  /*text-align: justify;*/
+  
     
   
 } 
