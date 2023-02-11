@@ -11,7 +11,7 @@
   
     /* Fonts */
     --heading-font: "Anybody"; 
-    --paragraph-font: "Maven Pro", Arvo, Dosis;
+    --paragraph-font: "Maven Pro", "Arvo", "Dosis";
   
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #0A0A0A;  /* headlines on a white background */ 
