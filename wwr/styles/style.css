@@ -161,6 +161,7 @@ h2{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
     float: right;
+    z-index: 1;
 }
 .msg h2{
     color: var(--nav-link-color);
