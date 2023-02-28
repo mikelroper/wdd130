@@ -215,6 +215,51 @@ h2{
     box-shadow: 5px 5px 10px #6f7364;
 } */
 
+.rivers-grid{
+    display: grid;
+    /*align-items: center; */
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    float: left;
+    float: right;
+    text-align: left;
+    text-align: right;
+
+}
+.rivers-grid p {
+    font-size: 0.875em;
+}
+  .salmon-card {
+    grid-column: 1/4;
+    text-align: left;
+    
+    
+}  
+  .rafting-img{
+    float: left; 
+    padding: 15px;   
+} 
+
+.utah-card {
+    grid-column: 1/4;   
+    text-align: right;
+}
+.heavy-img {
+    float: right;
+    padding: 15px;   
+}
+.arizona-card {
+    grid-column: 1/4;
+    text-align: left;
+}
+
+.rivers-img{
+    float: left;
+    padding: 15px;   
+    
+}
 
 
 /* -----------------------  */
