@@ -122,6 +122,9 @@ nav a:hover{
 .grass-card .h2{
     grid-row-start: 1;
 }
+.grass-card p{
+    grid-row: 2/3;
+}
 .ninja_history{
     grid-column: 1/3;
     grid-row: 2/3;
