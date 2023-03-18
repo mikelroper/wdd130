@@ -146,9 +146,7 @@ nav a:hover{
     grid-row: 2/3;
 }
 .shoryu{
-    
     max-width: 45%;
-    max-height: auto;
     grid-column: 1/2;
     grid-row: 3/4;
     float: left;
@@ -157,7 +155,6 @@ nav a:hover{
 }
 .training{
     max-width: 45%;
-    max-height: auto;
     grid-column: 2/3;
     grid-row: 3/4;    
     float: right;
@@ -187,7 +184,6 @@ nav a:hover{
 .nin_title{
     font-size: 4em;
     color: #3CA482;
-    text-shadow: 5px #000100;
     text-decoration:underline;
     text-decoration-color: #666666;
 }
@@ -250,10 +246,6 @@ h4{
     clear: both;
 }
 footer{
-    
-    /* position: fixed;
-    left: 0;
-    bottom: 0; */
     width: 100%;
     margin: 0 auto;
     background-color: var(--secondary-color);
@@ -263,7 +255,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: left;
+    /* align-items: left; */
     
     
 }
