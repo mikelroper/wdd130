@@ -28,7 +28,7 @@
 
 #greenery {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 150px 3fr 150px;
     margin-top: -350px;
 }
 #greenery-img{
@@ -83,8 +83,9 @@ nav a:hover{
 /* -----------------------  */
 .home-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
+    grid-template-columns: 1fr;
+    
+    margin-right: 150px;
     padding:  10px;
     /*grid-template-rows: repeat(10, 1fr); */  /*  This row causes things to not align properly, because the rows are declared in each class and method. */
     float: left;
@@ -97,7 +98,7 @@ nav a:hover{
     max-width: 1200px;
     grid-column: 1/3;
     grid-row: 1/2;
-    text-align: left;
+    text-align: justify;
     margin: auto;
     justify-self: center; /* center horizontally */
     align-self: center; /* center vertically */
@@ -111,9 +112,9 @@ nav a:hover{
  .history-card img{
     /* grid-column: 3/4; */
     float: right;
-    padding: 30px;
-    max-width: 50%;
-    max-height: auto;
+    padding: 10px;
+    max-width: auto;
+    max-height: 50%;
 }
 
 
@@ -135,11 +136,15 @@ nav a:hover{
 }
 .grass-card img{
     display: flex;
-    width: 1200px;
-    height: 400px;
+    /* width: 1200px;
+    height: 400px; */
+    padding: 10px;
+    max-width: 48%;
+    max-height: auto;
 }
 .grass-card p{
     grid-row: 2/3;
+    text-align: justify;
 }
 .box{
     max-width: 1200px;
@@ -222,8 +227,9 @@ body {
     color: var(--headline-color-on-color);
     font: var(--paragraph-font);
     font-size: 22px;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    /* padding: 0; */
+    align-content: center;
 }
 header {
     background-color: var(--secondary-color);
