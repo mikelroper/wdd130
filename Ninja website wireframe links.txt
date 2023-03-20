@@ -1,3 +1,6 @@
+How tutorials for all sorts of web components.
+https://www.w3schools.com/howto/
+
 Wireframes for my page:
 Home page:
 https://wireframe.cc/Iuyk6u
