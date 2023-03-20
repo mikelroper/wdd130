@@ -291,3 +291,61 @@ footer a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+
+
+
+
+.iaido-title{
+    font-size: 4em;
+    color: #3CA482;
+    text-decoration:underline;
+    text-decoration-color: #666666;
+}
+.iaido-grid{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    
+    margin-right: 150px;
+    padding:  10px;
+    /*grid-template-rows: repeat(10, 1fr); */  /*  This row causes things to not align properly, because the rows are declared in each class and method. */
+    float: left;
+    float: right;
+    justify-content: center;
+}
+.haso-card{
+    max-width: 1200px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: justify;
+    margin: auto;
+    justify-self: center; /* center horizontally */
+    align-self: center; /* center vertically */
+    float: left;
+}
+ .haso-card img{
+    /* grid-column: 3/4; */
+    float: right;
+    padding: 10px;
+    max-width: auto;
+    max-height: 50%;
+ }
+
+ .sword-card{
+    max-width: 1200px;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    text-align: justify;
+    margin: auto;
+    justify-self: center; /* center horizontally */
+    align-self: center; /* center vertically */
+    float: left;
+}
+
+ .sword-card img{
+    grid-column: 1/2;
+    /* float: right; */
+    padding: 10px;
+    max-width: auto;
+    max-height: 50%;
+ }
