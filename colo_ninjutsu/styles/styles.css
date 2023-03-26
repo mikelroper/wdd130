@@ -68,13 +68,7 @@ nav a:hover{
 
 
 
-.home-title{
-    font-family: var(--heading-font);
-    font-size: 2em;
-    background-color: var(--primary-color);
-    color: var(--headline-color-on-color);
-    margin-top: 10px;
-}
+
 #history-title h1 {
     color: var(--headline-color-on-color);
     text-align: center;
@@ -113,7 +107,7 @@ nav a:hover{
     /* grid-column: 3/4; */
     float: right;
     padding: 10px;
-    max-width: auto;
+    /* max-width: auto; */
     max-height: 50%;
 }
 
@@ -140,7 +134,7 @@ nav a:hover{
     height: 400px; */
     padding: 10px;
     max-width: 48%;
-    max-height: auto;
+    /* max-height: auto; */
 }
 .grass-card p{
     grid-row: 2/3;
@@ -295,20 +289,16 @@ footer a:hover{
 
 
 
-
-.iaido-title{
-    font-size: 4em;
-    color: #3CA482;
-    text-decoration:underline;
-    text-decoration-color: #666666;
+#iaido-title h1 {
+    color: var(--headline-color-on-color);
+    text-align: center;
 }
+
 .iaido-grid{
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
-    
+    grid-template-columns: repeat(2, 1fr);
     margin-right: 150px;
     padding:  10px;
-    /*grid-template-rows: repeat(10, 1fr); */  /*  This row causes things to not align properly, because the rows are declared in each class and method. */
     float: left;
     float: right;
     justify-content: center;
@@ -327,25 +317,45 @@ footer a:hover{
     /* grid-column: 3/4; */
     float: right;
     padding: 10px;
-    max-width: auto;
+    /* max-width: auto; */
     max-height: 50%;
  }
 
  .sword-card{
     max-width: 1200px;
-    grid-column: 1/2;
-    grid-row: 2/4;
+    grid-column: 1/3;
+    grid-row: 2/3;
     text-align: justify;
     margin: auto;
     justify-self: center; /* center horizontally */
     align-self: center; /* center vertically */
     float: left;
+    float: right
 }
 
- .sword-card img{
+/*  .sword-card img{
     grid-column: 1/2;
-    /* float: right; */
+    /* float: right; 
     padding: 10px;
     max-width: auto;
     max-height: 50%;
- }
+ } */
+
+
+
+.sword-card .swords{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+        
+}
+.sword-card .armor {
+    grid-column: 2/3;
+    grid-row-start: 1;
+    padding-right: 10px;
+}
+.sword-card p{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    float: left;
+}
