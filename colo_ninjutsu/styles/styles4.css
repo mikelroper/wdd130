@@ -23,7 +23,12 @@
     --nav-hover-background-color: #000100;
   }
 
-
+  .nin_title{
+    font-size: 4em;
+    color: #3CA482;
+    text-decoration:underline;
+    text-decoration-color: #666666;
+}
 
 #content {
     max-width: 1200px; 

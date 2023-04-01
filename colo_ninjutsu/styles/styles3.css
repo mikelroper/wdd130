@@ -68,7 +68,12 @@ nav a:hover{
     background-color: var(--nav-hover-background-color);
 }
 
-
+.nin_title{
+    font-size: 4em;
+    color: #3CA482;
+    text-decoration:underline;
+    text-decoration-color: #666666;
+}
 
 
 
