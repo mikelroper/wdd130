@@ -68,7 +68,7 @@ nav a:hover{
     background-color: var(--nav-hover-background-color);
 }
 
-.nin_title{
+.nin-title{
     font-size: 4em;
     color: #3CA482;
     text-decoration:underline;
@@ -254,4 +254,105 @@ footer a{
 footer a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+
+/* ----------------------------iaido----------------*/
+
+#weapons-title h1{
+    color: var(--headline-color-on-color);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.weapons-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, auto);  /*  This row causes things to not align properly, because the rows are declared in each class and method. */
+    align-items: center;
+    grid-row-gap: 5px;
+    
+}
+.weapons-grid h2{
+    text-align: center;
+    grid-row: 2/3;
+}
+.content2 p{
+    text-align: justify;
+    grid-row: 3/4;
+}
+.card-img{
+    border: 2px solid #999999;
+    transition: transform .5s;
+    box-shadow: 1px 1px 2px #000100;
+    max-width: 700px;
+    height: auto;
+    
+}
+.sticks-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px;
+    max-width: 750px;
+    height: auto;
+}
+.sai-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 10px;
+    max-width: 750px;
+    height: auto;
+}
+.knife-card{
+    grid-column: 3/4;
+    grid-row: 1/1;
+    margin: 10px;
+    max-width: 750px;
+    height: auto;
+}
+.throwing-card{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin: 10px;
+    max-width: 750px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 750px);
+    
+}
+
+.shuriken{
+    grid-column: 1/2;
+    border: 2px solid #999999;
+    transition: transform .5s;
+    box-shadow: 1px 1px 2px #000100;
+    max-width: 700px;
+    height: auto;
+}
+.old_sai{
+    grid-column: 2/3;
+    border: 2px solid #999999;
+    transition: transform .5s;
+    box-shadow: 1px 1px 2px #000100;
+    max-width: 700px;
+    height: auto;
+}
+.tools{
+    grid-column: 3/4;
+    border: 2px solid #999999;
+    transition: transform .5s;
+    box-shadow: 1px 1px 2px #000100;
+    max-width: 700px;
+    height: auto;
+}
+
+.throwing-card h2{
+    grid-column: 1/4;
+    text-align: center;
+}
+.throwing-card p{
+    grid-column: 1/4;
+    text-align: justify;
 }

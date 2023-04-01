@@ -23,7 +23,7 @@
     --nav-hover-background-color: #000100;
   }
 
-  .nin_title{
+.nin-title{
     font-size: 4em;
     color: #3CA482;
     text-decoration:underline;
@@ -126,20 +126,13 @@ header {
 
 
 
-h1{
+#weapons-title h1{
     color: var(--headline-color-on-color);
     font-size: 50px;
     text-align: center;
 }
 
 
-
-.h2-style {
-    font-size: 2em; /* adjust font size to match h2 */
-    font-weight: bold; /* adjust font weight to match h2 */
-    margin-bottom: 0.5em; /* adjust margin to match h2 */
-    /* other styling properties as needed to match h2 */
-  }
 
 .weapons-grid{
     display: grid;
@@ -153,7 +146,7 @@ h1{
     text-align: center;
     grid-row: 2/3;
 }
-.content p{
+.content2 p{
     text-align: justify;
     grid-row: 3/4;
 }
@@ -271,3 +264,8 @@ footer a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+
+
+/* ------------------------------ */
+
