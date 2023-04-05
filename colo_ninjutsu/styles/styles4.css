@@ -145,6 +145,8 @@ header {
 .weapons-grid h2{
     text-align: center;
     grid-row: 2/3;
+    justify-content: center;
+    align-items: normal;
 }
 .content2 p{
     text-align: justify;
@@ -164,6 +166,7 @@ header {
     margin: 10px;
     max-width: 750px;
     height: auto;
+    justify-self: center;
 }
 .sai-card{
     grid-column: 2/3;
@@ -171,6 +174,11 @@ header {
     margin: 10px;
     max-width: 750px;
     height: auto;
+    justify-self: center;
+}
+.sai-card p{
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
 .knife-card{
     grid-column: 3/4;
@@ -178,7 +186,13 @@ header {
     margin: 10px;
     max-width: 750px;
     height: auto;
+    justify-self: center;
 }
+.knife-card p {
+    grid-column: 3/4;
+    grid-row: 2/3; 
+}
+
 .throwing-card{
     grid-column: 1/4;
     grid-row: 2/3;
@@ -186,9 +200,10 @@ header {
     max-width: 750px;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, 750px);
+    grid-template-columns: repeat(3, 400px);
     
 }
+
 
 .shuriken{
     grid-column: 1/2;
@@ -197,6 +212,8 @@ header {
     box-shadow: 1px 1px 2px #000100;
     max-width: 700px;
     height: auto;
+    border: 10px;
+    column-gap: 10px;
 }
 .old_sai{
     grid-column: 2/3;
@@ -205,6 +222,8 @@ header {
     box-shadow: 1px 1px 2px #000100;
     max-width: 700px;
     height: auto;
+    border: 10px;
+    column-gap: 10px;
 }
 .tools{
     grid-column: 3/4;
@@ -213,6 +232,8 @@ header {
     box-shadow: 1px 1px 2px #000100;
     max-width: 700px;
     height: auto;
+    margin: 10px;
+    column-gap: 10px;
 }
 
 .throwing-card h2{
