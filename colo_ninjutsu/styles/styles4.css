@@ -140,7 +140,7 @@ header {
     grid-template-rows: repeat(6, auto);  /*  This row causes things to not align properly, because the rows are declared in each class and method. */
     align-items: center;
     grid-row-gap: 5px;
-    
+    text-align: center;
 }
 .weapons-grid h2{
     text-align: center;
@@ -197,7 +197,7 @@ header {
     grid-column: 1/4;
     grid-row: 2/3;
     margin: 10px;
-    max-width: 750px;
+    max-width: 1200px;
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 400px);
